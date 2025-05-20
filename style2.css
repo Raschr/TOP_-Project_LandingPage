@@ -8,30 +8,61 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.section-1 {
+.icon{
     display: flex;
-    flex-direction: column;
-    background-color: rgb(35, 35, 58);
+}
+
+.section-1{
+    background-color: rgb(44, 44, 62);
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 .content-1{
     display: flex;
-    flex-direction: column;
-    width: 600px;
-    padding-bottom: 100px;
+   
 }
 
-.header-section-1{
+.content-11,
+.content-12{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 100px;
+    flex-direction: column;
+    flex: 1 1 auto;
 }
 
-.header-links{
+.content-11{
+     align-items: start;
+     padding: 30px;
+}
+
+.content-12{
+     align-items: end;
+     padding: 30px;
+}
+
+h1{color: white;}
+
+.subtext{
+    color: #eee;
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+button{
+    width: 80px;
+    height: auto;
+    background-color: rgb(57, 97, 255);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 ul{
@@ -46,38 +77,11 @@ li{
    flex: 1 0 auto; 
 }
 
-
-.content-5{
-    display: flex;
-    justify-content: center;    
-    gap: 40px;
-}
-
-.content-header{
-    color: white;
-    flex-wrap: wrap;
-}
-
-.subtext{
-    color: #eee;
-    flex-wrap: wrap;
-}
-
-.first-button{
-    background-color: rgb(33, 126, 255);
-    color: white;
-    font-weight: 700;
-    padding-left: 20px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 20px;
-    border-radius: 5px;
-}
-
 .img-dog{
     width: 200px;
+    height: auto;
+    display: flex;
 }
-
 
 .section-2{
     display: flex;
@@ -117,10 +121,10 @@ li{
 .content-31{
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
+    padding-left: 400px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 300px;
+    padding-right: 400px;
 }
 
 .quote{
