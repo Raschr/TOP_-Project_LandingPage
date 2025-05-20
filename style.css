@@ -1,0 +1,55 @@
+.header{
+    background-color: rgb(44, 44, 62);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    gap: 16px
+}
+
+.section-1{
+    background-color: rgb(44, 44, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{color: white;}
+
+.subtext{
+    color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 300px;
+}
+
+button{
+    width: 80px;
+    height: auto;
+    background-color: rgb(57, 97, 255);
+    color: white;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    padding: 30px;
+
+}
