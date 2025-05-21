@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-   
 }
 
 *{
@@ -11,7 +10,7 @@ body{
 .section-1 {
     display: flex;
     flex-direction: column;
-    background-color: rgb(35, 35, 58);
+    background-color: rgb(35, 41, 58);
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +18,7 @@ body{
 .content-1{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    max-width: 80%;
     padding-bottom: 100px;
 }
 
@@ -27,6 +26,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+}
+
+.icon{
+    border-radius: 100px;
+    max-width: 64px;
+    max-height: 87px;
+    overflow: clip;
 }
 
 .header-links{
@@ -48,9 +54,9 @@ li{
 
 
 .content-5{
-    display: flex;
-    justify-content: center;    
+    display: flex;    
     gap: 40px;
+    overflow: clip;
 }
 
 .content-header{
@@ -63,7 +69,8 @@ li{
     flex-wrap: wrap;
 }
 
-.first-button{
+button{
+    display: flex;
     background-color: rgb(33, 126, 255);
     color: white;
     font-weight: 700;
@@ -74,8 +81,10 @@ li{
     border-radius: 5px;
 }
 
+
 .img-dog{
-    width: 200px;
+    max-width: 100%;
+    height: 100%;
 }
 
 
@@ -84,6 +93,8 @@ li{
     flex-direction: column;
     background-color: white;
     align-items: center;
+    padding-top: 12px;
+    padding-bottom: 64px;
 }
 
 .illustration-container{
@@ -117,10 +128,7 @@ li{
 .content-31{
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 300px;
+    padding: 64px;
 }
 
 .quote{
@@ -140,20 +148,39 @@ li{
 
 .section-4{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: white;
-    padding: 32px;
+    padding: 64px;
 }
 
 .blue-box{
     display: flex;
-    background-color: blue;
+    flex-direction: row;
+    background-color: rgb(33, 126, 255);
     padding: 16px;
-    
-
+    color: #eee;
+    height: auto;
+    justify-content: space-evenly;
+    gap: 32px;
+    width: 100%;
 }
 .blue-content{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h3{
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-button{
+    border: solid white 1px;
 }
